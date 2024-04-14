@@ -6,7 +6,7 @@ from base.models  import item
 @api_view(['GET'])
 def getdata(request):
     items = {
-        'welcome':'welcome to xapi http://127.0.0.1:8000/xapi/'
+        'welcome':'welcome to xapi https://crud-api-a61z.onrender.com/xapi/'
     }
     return Response(items)
 
