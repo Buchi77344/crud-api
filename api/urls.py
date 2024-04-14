@@ -30,5 +30,3 @@ urlpatterns = [
     path('api-auth/',include('rest_framework.urls'),name='rest_framework') 
 ]
   
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
